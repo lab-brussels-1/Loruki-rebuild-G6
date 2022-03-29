@@ -1,6 +1,6 @@
 {
   "language": "en",
-  "words": [],
+  "words": ["Loruki", "Dnyandeo", "Inna", "Zeynep", "socio", "X"],
   "ignorePaths": [
     "node_modules/**",
     "package.json",
