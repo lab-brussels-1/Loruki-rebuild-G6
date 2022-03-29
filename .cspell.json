@@ -1,6 +1,15 @@
 {
   "language": "en",
-  "words": ["Loruki", "Dnyandeo", "Inna", "Zeynep", "socio", "X"],
+  "words": [
+    "Loruki",
+    "Dnyandeo",
+    "Inna",
+    "Zeynep",
+    "socio",
+    "X",
+    "vwell",
+    "projec"
+  ],
   "ignorePaths": [
     "node_modules/**",
     "package.json",
