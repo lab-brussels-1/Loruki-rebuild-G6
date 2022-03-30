@@ -2,7 +2,7 @@
 
 ## User Persona-1
 
-<img src="./assets/user-persona-leyla.jpeg" width="200" height="300"
+<img src="./assets/user-persona-leyla.jpeg" width="200" height="200"
 alt="USER PERSONA LEYLA"/>
 
 ### 1-Bio
