@@ -1,6 +1,6 @@
-# USER PERSONA 1
+# User persona-1
 
-![USER PERSONA LEYLA](./assets/USER%20PERSONA%20LEYLA.jpeg)
+![USER PERSONA LEYLAxxxxxxxxxxxxxxxxxxxxx](./assets/user-persona-leyla.jpeg)
 
 ## Bio:
 
@@ -23,9 +23,9 @@
 - _She organizes an activity on Friday afternoons every week, as she needs to
   promote the project for the website of the universities_
 
-# USER PERSONA 2
+# User persona-2
 
-![USER PERSONA FARAH](./assets/USER%20PERSONA%20FARAH.jpeg)
+![USER PERSONA FARAH](./assets/user-persona-farah.jpeg)
 
 ## Bio:
 
