@@ -28,7 +28,7 @@ alt="USER PERSONA LEYLA"/>
 
 ## User Persona-2
 
-<img src="./assets/user-persona-farah.jpeg" width="200" height="300"
+<img src="./assets/user-persona-farah.jpeg" width="200" height="200"
 alt="USER PERSONA FARAH"/>
 
 ### 2-Bio
