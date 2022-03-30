@@ -2,7 +2,8 @@
 
 ## User Persona-1
 
-![USER PERSONA LEYLAxxxxxxxxxxxxxxxxxxxxx](./assets/user-persona-leyla.jpeg)
+<img src="./assets/user-persona-leyla.jpeg" width="200" height="300"
+alt="USER PERSONA LEYLA"/>
 
 ### 1-Bio
 
@@ -27,7 +28,8 @@
 
 ## User Persona-2
 
-![USER PERSONA FARAH](./assets/user-persona-farah.jpeg)
+<img src="./assets/user-persona-farah.jpeg" width="200" height="300"
+alt="USER PERSONA FARAH"/>
 
 ### 2-Bio
 
