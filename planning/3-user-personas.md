@@ -2,7 +2,8 @@
 
 ## User Persona-1
 
-<img src="./assets/user-persona-leyla.jpeg" width="200" height="300" alt="USER PERSONA LEYLA" />
+<img src="./assets/user-persona-leyla.jpeg" width="200" height="300"
+alt="USER PERSONA LEYLA"/>
 
 ### 1-Bio
 
@@ -27,7 +28,8 @@
 
 ## User Persona-2
 
-<img src="./assets/user-persona-farah.jpeg" width="200" height="300" alt="USER PERSONA FARAH" />
+<img src="./assets/user-persona-farah.jpeg" width="200" height="300"
+alt="USER PERSONA FARAH"/>
 
 ### 2-Bio
 
