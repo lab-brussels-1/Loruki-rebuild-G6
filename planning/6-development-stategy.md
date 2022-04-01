@@ -13,28 +13,66 @@ Loruki
 
 ---
 
-<!--
-  all issues for this user story have a `for: site title` label
+## Site Title
 
-  this section can be copy-pasted into an issue on the project board
+- Title of the site is on the left side
 
-  you can add more labels to these issues (`html`, `css`, `documentation`, ...)
--->
+## Site Title:HTML
 
-<!-- issue title -->
+- html
 
-## Site header
+## Site Title:CSS
 
-<!-- user story -->
+- style the logo to the left side and navi bar to the right side
 
-> "as a user I can read the header of the page"
+## Navbar
 
-<!-- detailed description -->
+button that will lead to main page
 
-The site needs a clear header that's easy to read at the top of the page.
+- Home , Features , Docs
 
-<!-- acceptance criteria -->
+## Company Description
 
-- [ ] _there is a prominent header at the top of the web page_
+info about the website
 
-<!-- code you think you will need -->
+- read more button
+
+## Request form:HTML
+
+- on the right side of the company description we have request form: name ,
+  company name ,email
+
+## Request form:CSS
+
+- correct font
+- correct position
+
+## Main information
+
+- more info about our site Loruki
+- can check how many Deployment , Published , Project we have
+- Extreme cloud hosting and button read more
+
+## M.I: HTML
+
+- correct code , spelling check
+
+## M.I: CSS
+
+- right font for logo
+
+## Footer
+
+- website nome
+- Home , Features , Docs button
+- social link
+
+## Footer:HTML
+
+- web site name
+- Home , Features , Docs
+
+## Footer:CSS
+
+- font and size
+- social media icons

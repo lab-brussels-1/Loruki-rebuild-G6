@@ -10,7 +10,8 @@
     "socio",
     "X",
     "vwell",
-    "projec"
+    "projec",
+    "navi"
   ],
   "ignorePaths": [
     "node_modules/**",
