@@ -15,17 +15,7 @@ Loruki
 
 ## Site Title
 
-<!-- user story -->
-
->
-
-<!-- detailed description -->
-
-<!-- acceptance criteria -->
-
-- [ ] _Title of the site is on the left side_
-
-<!-- code you think you will need -->
+- Title of the site is on the left side
 
 ## Site Title:HTML
 
