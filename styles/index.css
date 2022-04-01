@@ -1,1 +1,732 @@
-@import url("./something.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* -------  Header ------- */
+header {
+  background-color: #047aed;
+  color: #333;
+  height: 70px;
+}
+
+.navbar {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: slideInFormTop 1s ease-in;
+}
+
+.navbar h1 {
+  margin: 10px 0;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  padding: 0 20px;
+  margin: 0 5px;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  border-bottom: 2px white solid;
+}
+
+/* ------- main info and form -------- */
+
+main {
+  background-color: #047aed;
+  max-height: 20rem;
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: flex;
+}
+
+.info {
+  animation: slideInFormLeft 1s ease-in;
+}
+
+.info h1 {
+  font-size: 40px;
+  font-weight: 100;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.info p {
+  font-size: 18px;
+  line-height: 1.5rem;
+  text-align: justify;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.btn-1 {
+  background-color: transparent;
+  color: white;
+  padding: 8px;
+  border: 1px solid white;
+  border-color: white;
+}
+
+/* ------ form ----------- */
+
+.form-box {
+  width: 35rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-left: 50px;
+  animation: slideInFormRight 1s ease-in;
+}
+
+.form-box h2 {
+  margin-bottom: 30px;
+  color: black;
+}
+
+.input-group {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  background: transparent;
+  font-size: 15px;
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+label i {
+  margin-right: 5px;
+}
+
+button i {
+  margin-left: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background: #047aed;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(0.97);
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -35px;
+  font-size: 14px;
+}
+
+/* ------------------- section-1 info -------------- */
+
+.section-1 {
+  padding-top: 140px;
+  animation: slideInFormBottom 1s ease-in;
+}
+
+.info-2 {
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+.grid-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 50%;
+  margin: auto;
+  padding-top: 40px;
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.grid-3 h3 {
+  font-size: 30px;
+}
+
+.grid-3 p {
+  font-size: 20px;
+  color: #047aed;
+}
+
+/* ---------- Animation ----------------  */
+
+@keyframes slideInFormLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFormRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFormTop {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFormBottom {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* ---------------- section 2 cli ----------- */
+
+.section-2 {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.grid-2 {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.cli-img {
+  width: 700px;
+}
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px black;
+  width: 18rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+/* ----------------- section 3 cloud --------- */
+
+.section-3 {
+  background-color: #047aed;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.flex h2 {
+  font-size: 45px;
+  color: white;
+}
+
+.flex p {
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.btn-2 {
+  margin-top: 30px;
+  background-color: transparent;
+  color: white;
+  padding: 8px;
+  border: 1px solid white;
+  border-color: white;
+}
+
+.cloud-img img {
+  width: 400px;
+}
+
+/* ------------ section 4 language ------- */
+
+.section-4 {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.language h2 {
+  margin: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.flex-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.card-2 {
+  border: 1px black;
+  width: 100px;
+  height: 130px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin: 10px;
+  transition: transform 0.2s ease-in;
+}
+
+.card-2 h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.card-2 img {
+  width: 80px;
+}
+
+.card-2:hover {
+  transform: translateY(-15px);
+}
+
+/* -------------------- footer ----------- */
+
+.footer {
+  background-color: #002240;
+  height: 150px;
+  padding-top: 40px;
+}
+
+.flex-3 {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-2 h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.logo-2 p {
+  color: white;
+}
+
+.foot ul li {
+  margin-bottom: 5px;
+}
+
+.foot ul li a {
+  color: white;
+  font-size: 17px;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.social a {
+  color: #002240;
+}
+
+.social i {
+  color: white;
+  padding: 5px;
+}
+
+/* -------------- @media (max-width: 768px) ------------ */
+
+@media (max-width: 768px) {
+  .container,
+  .grid-2,
+  .grid-3,
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container,
+  .form-box,
+  .section-1 {
+    text-align: center;
+  }
+
+  .cli-img,
+  .card-box {
+    align-items: center;
+  }
+
+  .info p {
+    text-align: center;
+  }
+
+  .form-box {
+    margin: 20px 0;
+  }
+
+  .section-1 {
+    margin-top: 15rem;
+  }
+
+  .info-2 h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .grid-3 div {
+    margin-bottom: 30px;
+  }
+
+  .cli-img {
+    width: 550px;
+  }
+
+  .card-box h3 {
+    text-align: center;
+  }
+
+  .cloud h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .cloud p {
+    text-align: center;
+  }
+
+  .btn-2 {
+    margin-left: 13rem;
+    margin-bottom: 30px;
+  }
+}
+
+/* ------------ @media (max-width: 650px) --------- */
+
+@media (max-width: 650px) {
+  .container,
+  .grid-2,
+  .grid-3,
+  .flex,
+  .flex-3,
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container,
+  .form-box,
+  .section-1,
+  .footer {
+    text-align: center;
+  }
+
+  .cli-img,
+  .card-box {
+    align-items: center;
+  }
+
+  .info h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .info p {
+    text-align: center;
+  }
+
+  .form-box {
+    margin-top: 5rem;
+    width: 26rem;
+  }
+
+  .section-1 {
+    margin-top: 16rem;
+  }
+
+  .info-2 h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .grid-3 div {
+    margin-bottom: 30px;
+  }
+
+  .cli-img {
+    width: 450px;
+  }
+
+  .card-box h3 {
+    text-align: center;
+  }
+
+  .cloud h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .cloud p {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .btn-2 {
+    margin-left: 11rem;
+    margin-bottom: 30px;
+  }
+
+  .footer {
+    padding: 5px;
+    height: auto;
+  }
+
+  .logo-2 {
+    margin-bottom: 20px;
+  }
+}
+
+/* -------------- @media (max-width: 500px) -------- */
+
+@media (max-width: 500px) {
+  .container,
+  .grid-2,
+  .grid-3,
+  .flex,
+  .flex-3,
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container,
+  .form-box,
+  .section-1,
+  .footer {
+    text-align: center;
+  }
+
+  .cli-img,
+  .card-box {
+    align-items: center;
+  }
+
+  .info h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .info p {
+    text-align: center;
+  }
+
+  .form-box {
+    margin-top: 3rem;
+    width: 22rem;
+  }
+
+  .section-1 {
+    margin-top: 16rem;
+  }
+
+  .info-2 h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .grid-3 div {
+    margin-bottom: 30px;
+  }
+
+  .cli-img {
+    width: 350px;
+  }
+
+  .card-box h3 {
+    text-align: center;
+  }
+
+  .cloud h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .cloud p {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .btn-2 {
+    margin-left: 8rem;
+    margin-bottom: 30px;
+  }
+
+  .footer {
+    padding: 5px;
+    height: auto;
+  }
+
+  .logo-2 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container,
+  .grid-2,
+  .grid-3,
+  .flex,
+  .flex-3,
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container,
+  .form-box,
+  .section-1,
+  .footer {
+    text-align: center;
+  }
+
+  .cli-img,
+  .card-box {
+    align-items: center;
+  }
+
+  .info h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .info p {
+    text-align: center;
+  }
+
+  .form-box {
+    margin-top: 3rem;
+    width: 22rem;
+  }
+
+  .section-1 {
+    margin-top: 16rem;
+  }
+
+  .info-2 h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .grid-3 div {
+    margin-bottom: 30px;
+  }
+
+  .cli-img {
+    width: 350px;
+  }
+
+  .card-box h3 {
+    text-align: center;
+  }
+
+  .cloud h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .cloud p {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .btn-2 {
+    margin-left: 8rem;
+    margin-bottom: 30px;
+  }
+
+  .footer {
+    padding: 5px;
+    height: auto;
+  }
+
+  .logo-2 {
+    margin-bottom: 20px;
+  }
+}
