@@ -120,10 +120,6 @@ header {
   text-align: left;
 }
 
-.py-3 {
-  padding: 2rem 0;
-}
-
 .docs-head img {
   width: 200px;
   justify-self: flex-end;
@@ -206,15 +202,6 @@ header {
 
 .flex {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
   justify-content: center;
   align-items: center;
   height: 100%;
