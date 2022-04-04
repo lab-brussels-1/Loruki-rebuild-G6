@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 body {
   font-family: "Lato", sans-serif;
+  line-height: 1.6;
 }
 
 ul {
@@ -77,14 +78,23 @@ pre {
   color: #333;
 }
 
-.btn-2 {
-  margin-top: 30px;
-  background-color: blue;
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #047aed;
   color: white;
-  padding: 8px;
+  padding: 20px 40px;
   border: 1px solid white;
   border-color: white;
   border-radius: 5px;
+}
+
+.btn:hover {
+  transform: scale(1);
+}
+
+.button:hover {
+  transform: scale(0.97);
 }
 
 /* ------ team ------ */
@@ -98,14 +108,6 @@ pre {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-
-/* Add some padding inside the card container
-
-.container {
-  padding: 2px 16px;
-}
-
-*/
 
 .team {
   width: 250px;
