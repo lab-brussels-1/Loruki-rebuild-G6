@@ -2,16 +2,20 @@
   "language": "en",
   "words": [
     "Loruki",
+    "X",
+    "Zeynep",
+    "navi",
+    "vwell",
     "Dnyandeo",
     "Inna",
-    "Zeynep",
-    "Farah",
     "leyla",
-    "socio",
-    "X",
-    "vwell",
-    "projec",
-    "navi"
+    "LEYLA",
+    "Leyla",
+    "farah",
+    "FARAH",
+    "Farah",
+    "navi",
+    "socio"
   ],
   "ignorePaths": [
     "node_modules/**",

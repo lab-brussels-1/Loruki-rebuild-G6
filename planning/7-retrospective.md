@@ -33,7 +33,7 @@
 
 <!--
   what ideas does your group have for making a better project next time?
-  agree to give these things a try in the next projec
+  agree to give these things a try in the next project
   this could be about anything. communication, code, review, ...
   examples (be specific!):
   - use @mentions more often
