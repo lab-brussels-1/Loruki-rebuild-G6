@@ -18,6 +18,17 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
 img {
   width: 100%;
 }
@@ -660,4 +671,16 @@ header {
 
 .p-5 {
   padding: 4rem;
+}
+
+/*---- animations ------*/
+
+@keyframes slideInFormTop {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
