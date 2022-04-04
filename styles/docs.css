@@ -107,6 +107,11 @@ pre {
 
 */
 
+.team {
+  width: 250px;
+  margin: auto;
+}
+
 /* -------  Header and navbar ------- */
 header {
   background-color: #047aed;
