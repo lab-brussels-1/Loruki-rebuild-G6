@@ -72,9 +72,21 @@ main {
   display: flex;
 }
 
-.info {
-  animation: slideInFormLeft 1s ease-in;
+/* slant 
+
+.container::before,
+.container::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  bottom: -470;
+  right: 0;
+  left: 0;
+  background: red;
+  transform: skewY(-3deg);
 }
+
+ ---- */
 
 .info h1 {
   font-size: 40px;
