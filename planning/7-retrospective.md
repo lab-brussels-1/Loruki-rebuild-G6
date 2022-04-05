@@ -10,7 +10,8 @@
 ## Stop Doing
 
 - Do everything from the first step
-- Never give up
+- Stop using other channels for communications
+- Stop not creating the project description first
 
 ## Continue Doing
 
