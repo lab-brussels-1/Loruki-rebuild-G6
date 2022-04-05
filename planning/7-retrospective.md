@@ -9,40 +9,48 @@
 
 ## Stop Doing
 
-<!--
-  what did your group do that did not go very well
-  agree to stop doing this in the next project
-  this could be about anything. communication, code, review, ...
-  examples (be specific!):
-  - pushing changes directly to master/main branch
-  - claiming more issues at once than you can finish
--->
+- Do everything from the first step
+- Never give up
 
 ## Continue Doing
 
-<!--
-  what did your group that worked vwell
-  agree to keep doing these in the next project
-  this could be about anything. communication, code, review, ...
-  examples (be specific!):
-  - making small, well-named commits
-  - using the `help-wanted` label
--->
+- Communication with the team
+- Discuss each step
+
+- If you have a problems ask for help in the group
+- Continue with the online video sessions
 
 ## Start Doing
 
-<!--
-  what ideas does your group have for making a better project next time?
-  agree to give these things a try in the next project
-  this could be about anything. communication, code, review, ...
-  examples (be specific!):
-  - use @mentions more often
-  - use the github integration in slack. /github
--->
+- Use commands "lint:css" and "validate:HTML"
+- Try to available to review PRs as soon as a PR is made
 
 ## Lessons Learned
 
-<!--
-  what cool things or general lessons has your team learned?
-  This can be about anything! code, collaboration, git, github, Belgian history, ...
--->
+- Checking before committing to master
+- New knowledge about HTML:CSS
+- Remember when naming your files or folders, do not leave blank spaces in
+  between.
+
+## Strategy vs. Board
+
+- repo (with a complete README)
+- live demo (GitHub Pages, not Netlify)
+- planing
+  - constraints
+  - communication plan
+  - user personas
+  - backlog
+  - design
+  - development strategy
+  - retrospective
+
+What parts of your plan went as expected?
+
+- Features page
+
+## What parts of your plan did not work out?
+
+Did you need to add things that weren't in your strategy? No
+
+Or remove extra steps? No
