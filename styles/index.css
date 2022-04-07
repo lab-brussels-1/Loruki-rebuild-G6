@@ -21,6 +21,7 @@ img {
 }
 
 /* -------  Header ------- */
+
 header {
   background-color: #047aed;
   color: #333;
@@ -38,6 +39,9 @@ header {
 
 .navbar h1 {
   margin: 10px 0;
+}
+
+.navbar h1 a {
   color: white;
 }
 
@@ -50,19 +54,22 @@ header {
   margin: 0 5px;
 }
 
-.navbar a {
+.navbar ul li a {
   color: white;
+  padding: 5px 5px;
+  border: 1px solid transparent;
+  border-radius: 8px;
 }
 
 .navbar a:hover {
-  border-bottom: 2px white solid;
+  border-color: white;
 }
 
 /* ------- main info and form -------- */
 
 main {
   background-color: #047aed;
-  max-height: 20rem;
+  max-height: 21rem;
 }
 
 .container {
@@ -72,27 +79,16 @@ main {
   display: flex;
 }
 
-/* slant
-
-.container::before,
-.container::after {
-  content: "";
-  position: absolute;
-  height: 100px;
-  bottom: -470;
-  right: 0;
-  left: 0;
-  background: red;
-  transform: skewY(-3deg);
+.info {
+  animation: slideInFormLeft 1s ease-in;
 }
 
- ---- */
-
 .info h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 100;
   color: white;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
 }
 
 .info p {
@@ -114,7 +110,7 @@ main {
 /* ------ form ----------- */
 
 .form-box {
-  width: 35rem;
+  width: 70rem;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);

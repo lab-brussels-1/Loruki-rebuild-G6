@@ -144,6 +144,9 @@ header {
 
 .navbar h1 {
   margin: 10px 0;
+}
+
+.navbar h1 a {
   color: white;
 }
 
@@ -156,12 +159,15 @@ header {
   margin: 0 5px;
 }
 
-.navbar a {
+.navbar ul li a {
   color: white;
+  padding: 5px 5px;
+  border: 1px solid transparent;
+  border-radius: 8px;
 }
 
 .navbar a:hover {
-  border-bottom: 2px white solid;
+  border-color: white;
 }
 
 /* Docs */
