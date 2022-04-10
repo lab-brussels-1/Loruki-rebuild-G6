@@ -6,12 +6,16 @@ We have decided to keep the Loruki website as it is. No changes.
 
 ---
 
-![design](assets/home-01.svg)
+![design](assets/homesvg.svg)
 
 ## Features
 
-![design](assets/home-01.svg)
+![design](assets/featuressvg-02.svg)
 
 ## Docs
 
-![design](assets/home-01.svg)
+![design](assets/docssvg.svg)
+
+## Team
+
+![design](assets/teamsvg.svg)
