@@ -10,7 +10,7 @@ We have decided to keep the Loruki website as it is. No changes.
 
 ## Features
 
-![design](assets/featuressvg.svg)
+![design](assets/featuressvg-02.svg)
 
 ## Docs
 
